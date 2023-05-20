@@ -60,40 +60,50 @@
           </nav>
         </header>
 
-        <main style="background-color: whit;">
+        <main style="background-color: whitesmoke;">
             <div class="container">
-                <div class="row justify-content-center">
-                  <div class="col-md-6">
-                    <div class="card mt-5" style="box-shadow: 0px 0px 15px rgba(0,0,0,0.3);">
-                      <div class="card-body">
-                        <form>
-                          <div class="mb-3">
-                            <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <div class="row">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                          <div class="card mt-5" style="margin-left: 1rem; box-shadow: 0px 0px 15px rgba(0,0,0,0.3);">
+                            <div class="card-body" style="padding-left:2rem; margin-top: 2rem;">
+                              <form>
+                                <div class="col-6 col-lg-6 col-sm-6 float-start">
+                                  <label for="text" class="form-label">First Name</label>
+                                  <input type="text" class="form-control" style="width: 80%;" id="text" aria-describedby="emailHelp">
+                                </div>
+                                <div class="col-6 col-lg-6 col-sm-6 float-start">
+                                  <label for="text" class="form-label">Last Name</label>
+                                  <input type="text" class="form-control" style="width: 80%;" id="text" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="email" class="form-label">E-mail</label>
+                                  <input type="email" class="form-control" style="width: 90%;" id="text" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="password" class="form-label">Password</label>
+                                  <input type="password" class="form-control" style="width: 90%;" id="password">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="password" class="form-label">Confirm Password</label>
+                                  <input type="password" class="form-control" style="width: 90%;" id="password">
+                                </div>
+                                <br>
+                                <button type="submit" class="btn btn-primary float-center" style="width: 40%;">Register</button>
+                                <div class="text-center">
+                                    <br>
+                                  <p style="padding-right: 2rem;">Already have a account? <br><a href="signin.html">Login here</a></p>
+                                </div>
+                              </form>
+                            </div>
                           </div>
-                          <div class="mb-3">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password">
-                          </div>
-                          <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="rememberMe">
-                            <label class="form-check-label" for="rememberMe">Remember me</label>
-                          </div>
-                          <button type="submit" class="btn btn-primary">Login</button>
-                          <a href="#" class="btn btn-link">Forgot password?</a>
-                          <hr>
-                          <div class="text-center">
-                            <p>You don't have an account? <br><a href="signup.html">Sign up here</a></p>
-                          </div>
-                        </form>
+                        </div>
                       </div>
-                    
-                  </div>
+                    </div>
                 </div>
-              </div>
-              <br><br>
-        </main>
-
+                <br><br>
+          </main>
+ 
 
         <footer style="background-color: #343a40; color: #f8f9fa; " class="py-1">
             <div class="container-fluid text-center py-3">
