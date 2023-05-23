@@ -6,7 +6,10 @@
     list-style: none;
 
 }
-
+body{
+    box-sizing: inherit;
+    min-height: 100vh;
+}
 
 img{
     max-width: 100%;
